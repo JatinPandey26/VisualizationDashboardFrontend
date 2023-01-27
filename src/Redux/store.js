@@ -9,4 +9,4 @@ const store = configureStore({
 
 export default store;
 
-export const server = "http://localhost:4000/news";
+export const server = "https://visualization-dashboard-backend.vercel.app/news";
