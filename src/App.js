@@ -1,7 +1,7 @@
 import { Container, Grid, Stack } from "@chakra-ui/react";
 import { Fragment, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 
 import {
@@ -53,13 +53,14 @@ function App() {
                   <Route path="/topics" element={<Topics_Chart />} />
                   <Route path="/country" element={<Country_Chart />} />
                   <Route path="/region" element={<Region_Chart />} />
+                  <Route path="*" element={<Navigate to={"/intensity"} />} />
                 </Routes>
               </Container>
             </Grid>
           </Fragment>
         )}
       </Stack>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
