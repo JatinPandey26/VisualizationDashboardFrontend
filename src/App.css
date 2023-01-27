@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Klee+One:wght@400;600&family=Poppins&display=swap");
 .App {
   text-align: center;
+  width: 98vw;
+  margin: auto;
+  font-family: 'Klee One', cursive;
 }
 
 .App-logo {
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.labelInForm {
+  width: 10rem;
 }
