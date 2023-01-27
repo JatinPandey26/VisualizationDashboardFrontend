@@ -36,7 +36,7 @@ const FilterBar = () => {
                 <ModalOverlay />
 
                 <ModalContent>
-                    <ModalHeader>Modal Title</ModalHeader>
+                    <ModalHeader>Filter</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
                         <VStack
